@@ -1,0 +1,3 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/durable-bond-223609/hello-cloud-run:$SHORT_SHA', '.']
