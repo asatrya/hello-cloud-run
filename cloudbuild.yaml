@@ -4,7 +4,7 @@ steps:
   args: ['build', '-t', 'gcr.io/durable-bond-223609/hello-cloud-run:$SHORT_SHA', '.']
 
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['run', 'gcr.io/durable-bond-223609/hello-cloud-run:$SHORT_SHA', 'npm', 'test']
+  args: ['run', 'gcr.io/durable-bond-223609/hello-cloud-run:$SHORT_SHA', 'npm', 'run', 'test']
 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/durable-bond-223609/hello-cloud-run:$SHORT_SHA']
