@@ -1,0 +1,23 @@
+{
+  "name": "serverless-cicd",
+  "version": "1.0.0",
+  "description": "An example code demostrating CI/CD in serverless ecosystem",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asatrya/hello-cloud-run.git"
+  },
+  "author": "Aditya Satrya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asatrya/hello-cloud-run/issues"
+  },
+  "homepage": "https://github.com/asatrya/hello-cloud-run#readme",
+  "dependencies": {
+    "mocha": "^6.2.0"
+  }
+}
