@@ -1,4 +1,4 @@
 // greetings.js
 exports.sayHello = function () {
-    return "This will be failed";
+    return "Hello GDG Bandung";
 }
